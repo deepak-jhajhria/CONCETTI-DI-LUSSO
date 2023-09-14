@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Open+Sans&display=swap');
 :root {
     /* colors  */
     --bs-black: #232323;
@@ -33,7 +34,20 @@
 .container {
     max-width: 1280px !important;
 }
-
+.bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-image{
+    background-image: url(/assets/images/firstBG.png);
+    min-height: 745px;
+}
+.line{
+ right: 0;
+ left: 0;
+ transform: translateY(15px);
+}
 /* -------font-family */
 .ff-hind {
     font-family: var(--ff-hind);
@@ -106,14 +120,21 @@
 .w-150 {
     width: 150px;
 }
-
+.max-450{
+    max-width: 458px;
+}
+.max-933{
+    max-width: 933px !important;
+}
 /*------- padding  */
 
 .py-13 {
     padding-top: 13px;
     padding-bottom: 13px;
 }
-
+.pt-20{
+    padding-top: 20px;
+}
 .p-13 {
     padding: 13px 13px;
 }
@@ -121,7 +142,18 @@
 .pt-30 {
     padding-top: 30px;
 }
-
+.pt-14{
+    padding-top: 14px;
+}
+.pt-22{
+    padding-top: 22px;
+}
+.ts-10{
+    padding: 10px 27px !important;
+}
+.pt-32{
+    padding-top: 32px;
+}
 .gap-20 {
     gap: 20px;
 }
@@ -141,9 +173,17 @@
 
 /* -----media-query */
 
-@media (min-width:576px) {}
+@media (min-width:576px) {
+    .pt-sm-30{
+        padding-top: 30px;
+    }
+}
 
-@media (min-width:768px) {}
+@media (min-width:768px) {
+    .pt-md-50{
+        padding-top: 50px;
+    }
+}
 
 @media (min-width:992px) {
     .fs-sm {
@@ -189,6 +229,9 @@
     .gap-30 {
         gap: 20px;
     }
+    .pt-lg-70{
+        padding-top: 70px;
+    }
 }
 
 @media (min-width:1200px) {
@@ -230,5 +273,8 @@
 
     .gap-42 {
         gap: 42px;
+    }
+    .pt-xl-95{
+        padding-top: 95px;
     }
 }
