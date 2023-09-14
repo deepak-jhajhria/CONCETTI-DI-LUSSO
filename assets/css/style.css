@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Open+Sans&display=swap');
+
 :root {
     /* colors  */
     --bs-black: #232323;
@@ -34,20 +35,36 @@
 .container {
     max-width: 1280px !important;
 }
-.bg{
+
+.bg {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.bg-image{
+
+.bg-image {
     background-image: url(/assets/images/firstBG.png);
     min-height: 745px;
 }
-.line{
- right: 0;
- left: 0;
- transform: translateY(15px);
+
+.line {
+    right: 0;
+    left: 0;
+    transform: translateY(15px);
 }
+
+.product {
+    top: 14%;
+    left: 0;
+}
+
+.bg-card {
+    border-radius: 10px !important;
+    background: #F3F5F6 !important;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.00) !important;
+    min-height: 438px !important;
+}
+
 /* -------font-family */
 .ff-hind {
     font-family: var(--ff-hind);
@@ -107,6 +124,10 @@
     color: var(--bs-brown) !important;
 }
 
+.bs-grey {
+    color: var(--bs-grey);
+}
+
 .bg-brown {
     background: var(--bs-brown) !important;
 }
@@ -120,40 +141,66 @@
 .w-150 {
     width: 150px;
 }
-.max-450{
+
+.max-450 {
     max-width: 458px;
 }
-.max-933{
+
+.max-343 {
+    max-width: 343px;
+}
+
+.max-933 {
     max-width: 933px !important;
 }
+
 /*------- padding  */
 
 .py-13 {
     padding-top: 13px;
     padding-bottom: 13px;
 }
-.pt-20{
+
+.pt-20 {
     padding-top: 20px;
 }
+
 .p-13 {
     padding: 13px 13px;
+}
+
+.pt-27 {
+    padding-top: 27px;
 }
 
 .pt-30 {
     padding-top: 30px;
 }
-.pt-14{
+
+.pt-14 {
     padding-top: 14px;
 }
-.pt-22{
+
+.pr-14 {
+    padding-right: 14px;
+}
+
+.pt-22 {
     padding-top: 22px;
 }
-.ts-10{
+
+.ts-10 {
     padding: 10px 27px !important;
 }
-.pt-32{
+
+.ts-23 {
+    padding: 23px 14px;
+}
+
+.pt-32 {
     padding-top: 32px;
 }
+
 .gap-20 {
     gap: 20px;
 }
@@ -171,17 +218,40 @@
     padding: 10px 32px !important;
 }
 
+.btncart {
+    padding: 8px 31px;
+}
+
+.btnshow {
+    padding: 10px 28px;
+}
+
 /* -----media-query */
 
 @media (min-width:576px) {
-    .pt-sm-30{
-        padding-top: 30px;
+    .img-sm {
+        /* max-width: 548px; */
+        height: 903px;
+    }
+
+    .product {
+        top: 23%;
+        left: 14%;
     }
 }
 
 @media (min-width:768px) {
-    .pt-md-50{
+    .pt-md-50 {
         padding-top: 50px;
+    }
+
+    .img-md {
+        height: 750px;
+    }
+
+    .product {
+        top: 19%;
+        left: 21%;
     }
 }
 
@@ -229,8 +299,27 @@
     .gap-30 {
         gap: 20px;
     }
-    .pt-lg-70{
+
+    .pt-lg-70 {
         padding-top: 70px;
+    }
+
+    .pt-lg-27 {
+        padding-top: 27px;
+    }
+
+    .pt-lg-50 {
+        padding-top: 50px;
+    }
+
+    .img-lg {
+        max-width: 548px;
+        height: 903px;
+    }
+
+    .product {
+        top: 19%;
+        left: 12%;
     }
 }
 
@@ -274,7 +363,12 @@
     .gap-42 {
         gap: 42px;
     }
-    .pt-xl-95{
+
+    .pt-xl-95 {
         padding-top: 95px;
+    }
+
+    .pt-xl-89 {
+        padding-top: 89px;
     }
 }
