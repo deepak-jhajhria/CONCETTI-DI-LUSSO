@@ -16,6 +16,7 @@
     --fs-12: 12px;
     --fs-14: 14px;
     --fs-16: 16px;
+    --fs-17: 17px;
     --fs-18: 18px;
     --fs-20: 20px;
     --fs-22: 22px;
@@ -65,6 +66,14 @@
     min-height: 438px !important;
 }
 
+.cardcotton {
+    max-width: 519px;
+    min-height: 482px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F3F5F6;
+}
+
 /* -------font-family */
 .ff-hind {
     font-family: var(--ff-hind);
@@ -84,11 +93,15 @@
 }
 
 .fs-lg {
-    font-size: var(--fs-18);
+    font-size: var(--fs-14);
 }
 
 .fs-xl {
     font-size: var(--fs-16);
+}
+
+.fs-1xl {
+    font-size: var(--fs-17);
 }
 
 .fs-2xl {
@@ -154,6 +167,11 @@
     max-width: 933px !important;
 }
 
+.wh-100 {
+    width: 100px;
+    height: 100px;
+}
+
 /*------- padding  */
 
 .py-13 {
@@ -176,7 +194,10 @@
 .pt-30 {
     padding-top: 30px;
 }
-
+.px-32{
+    padding-left: 32px;
+    padding-right: 32px;
+}
 .pt-14 {
     padding-top: 14px;
 }
@@ -207,6 +228,10 @@
 
 .gap-42 {
     gap: 42px;
+}
+
+.pt-12 {
+    padding-top: 12px;
 }
 
 .pl-26 {
