@@ -67,11 +67,18 @@
 }
 
 .cardcotton {
-    max-width: 519px;
     min-height: 482px;
     flex-shrink: 0;
     border-radius: 30px;
     background: #F3F5F6;
+}
+
+.card-trending {
+    min-height: 569px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.10);
 }
 
 /* -------font-family */
@@ -194,10 +201,16 @@
 .pt-30 {
     padding-top: 30px;
 }
-.px-32{
+
+.pt-37 {
+    padding-top: 37px;
+}
+
+.px-32 {
     padding-left: 32px;
     padding-right: 32px;
 }
+
 .pt-14 {
     padding-top: 14px;
 }
@@ -212,6 +225,10 @@
 
 .ts-10 {
     padding: 10px 27px !important;
+}
+
+.ts-31 {
+    padding: 31px 18px;
 }
 
 .ts-23 {
@@ -270,6 +287,10 @@
         padding-top: 50px;
     }
 
+    .pt-md-89 {
+        padding-top: 40px;
+    }
+
     .img-md {
         height: 750px;
     }
@@ -277,6 +298,14 @@
     .product {
         top: 19%;
         left: 21%;
+    }
+
+    .card-trending {
+        min-height: 669px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.10);
     }
 }
 
@@ -337,6 +366,10 @@
         padding-top: 50px;
     }
 
+    .pt-lg-40 {
+        padding-top: 40px;
+    }
+
     .img-lg {
         max-width: 548px;
         height: 903px;
@@ -395,5 +428,9 @@
 
     .pt-xl-89 {
         padding-top: 89px;
+    }
+
+    .pt-xl-60 {
+        padding-top: 60px;
     }
 }
