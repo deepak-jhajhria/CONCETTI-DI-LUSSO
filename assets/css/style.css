@@ -6,6 +6,7 @@
     --bs-white: white;
     --bs-grey: #686868;
     --bs-brown: #9E3040;
+    --bg-footer:#F3F5F6;
 
     /* font-family  */
     --ff-hind: 'Hind Siliguri', sans-serif;
@@ -15,6 +16,7 @@
     --fs-10: 10px;
     --fs-12: 12px;
     --fs-14: 14px;
+    --fs-15:15px;
     --fs-16: 16px;
     --fs-17: 17px;
     --fs-18: 18px;
@@ -118,7 +120,9 @@
 .fs-lg {
     font-size: var(--fs-14);
 }
-
+.fs-15{
+    font-size: var(--fs-15);
+}
 .fs-xl {
     font-size: var(--fs-16);
 }
@@ -166,6 +170,9 @@
 
 .bg-brown {
     background: var(--bs-brown) !important;
+}
+.bg-footer{
+    background: var(--bg-footer);
 }
 
 /* ------ height-width  */
@@ -237,7 +244,9 @@
 .pb-40 {
     padding-bottom: 40px;
 }
-
+.pb-60{
+    padding-bottom: 60px;
+}
 .px-32 {
     padding-left: 32px;
     padding-right: 32px;
@@ -246,7 +255,9 @@
 .pt-14 {
     padding-top: 14px;
 }
-
+.pt-60{
+    padding-top: 60px;
+}
 .pr-14 {
     padding-right: 14px;
 }
@@ -266,7 +277,9 @@
 .ts-23 {
     padding: 23px 14px;
 }
-
+.pt-15{
+    padding-top: 15px;
+}
 .pt-32 {
     padding-top: 32px;
 }
@@ -278,7 +291,9 @@
 .gap-20 {
     gap: 20px;
 }
-
+.gap-25{
+    gap: 25px;
+}
 .gap-30 {
     gap: 30px;
 }
