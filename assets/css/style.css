@@ -350,6 +350,10 @@ ul {
     padding-right: 60px;
 }
 
+.gap-15 {
+    gap: 15px;
+}
+
 .gap-20 {
     gap: 20px;
 }
@@ -493,6 +497,14 @@ ul {
 
     .pb-md-60 {
         padding-bottom: 60px;
+    }
+
+    .gap-md-25 {
+        gap: 25px;
+    }
+
+    .gap-md-30 {
+        gap: 30px;
     }
 }
 
