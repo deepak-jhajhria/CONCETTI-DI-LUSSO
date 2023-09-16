@@ -69,9 +69,11 @@
     bottom: 2%;
     right: 3%;
 }
-.hover-fwbase:hover{
+
+.hover-fwbase:hover {
     -webkit-text-stroke: 0.5px #232323;
 }
+
 .bg-card {
     border-radius: 10px !important;
     background: #F3F5F6 !important;
@@ -99,12 +101,15 @@
     border: 1px solid rgba(158, 48, 64, 0.30) !important;
     background: #FFF !important;
 }
-.ovrflowV{
+
+.ovrflowV {
     overflow: visible;
 }
-.ovrflowH{
+
+.ovrflowH {
     overflow: hidden;
 }
+
 .form-control:focus {
     box-shadow: none !important;
 }
@@ -174,6 +179,10 @@
     height: 4px;
     margin-top: 7px;
     background-color: brown;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: unset !important;
 }
 
 ul {
