@@ -216,7 +216,23 @@ ul {
 .bg-footer {
     background: var(--bg-footer);
 }
-
+.bs-w-btn:hover{
+    background-color: #F3F5F6 !important;
+    color: #303030 !important;
+    border: 1px solid #9E3040 !important;
+}
+.bs-b-btn:hover{
+    background-color: #9E3040 !important;
+    color: #F3F5F6 !important;
+}
+.bs-sub-btn:focus{
+    background-color: #F3F5F6 !important;
+    color: #303030 !important;
+    border: 1px solid #9E3040 !important;
+}
+.fill:hover{
+    display: none !important;
+}
 /* ------ height-width  */
 .wh-18 {
     max-width: 18px;
@@ -393,6 +409,7 @@ ul {
 
 .btnSUBSCRIBE {
     padding: 10px 37px;
+    border: 1px solid #9E3040 !important;
 }
 
 .cursr-pointer {
@@ -400,6 +417,15 @@ ul {
 }
 
 /* -------grid */
+.items>img {
+    height: 100%;
+    transition: all 300ms linear;
+}
+
+.items:hover>img {
+    transform: scale(1.1);
+}
+
 .item-1 {
     grid-column: 1/2;
     grid-row: 3/4;
